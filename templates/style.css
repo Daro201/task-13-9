@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: gray;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	align-items: center;
+	flex-wrap: none;
+	color: white;
+	justify-content: center;
+}	
+.file {
+	text-align: center;
+}
+h1{
+	font-size: 50px;
+	
+}
+
+input {
+	border: none;
+}
+
+.small {
+	width: 200px;
+	border: none;
+}
+
+.send {
+	width: 200px;
+	background-color: green;
+	border: none;
+	height: 40px;
+	margin: 20px;
+	border-radius: 5px;
+	color: white;
+}
