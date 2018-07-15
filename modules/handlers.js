@@ -44,8 +44,10 @@ exports.upload = function(request, response) {
 
 exports.error = function(request, response) {
     console.log("Nie wiem co robić.");
-    response.write("404 :(");
-    response.end();
+    fs.readFile('templates/404.png', function(err, data) {
+        response.write(data);
+        response.end();
+    });
 }
 
 exports.show = function(request, response) {

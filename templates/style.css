@@ -10,6 +10,7 @@ body {
 	align-items: center;
 	flex-wrap: none;
 	color: white;
+	font-size: 20px;
 	justify-content: center;
 }	
 .file {
@@ -20,21 +21,32 @@ h1{
 	
 }
 
-input {
-	border: none;
-}
-
 .small {
 	width: 200px;
 	border: none;
 }
 
+
+.inputfile{
+	margin: 20px auto;
+	font-size: 18px;
+
+}
 .send {
 	width: 200px;
-	background-color: green;
+	background-color: #0d77b7;
 	border: none;
 	height: 40px;
 	margin: 20px;
 	border-radius: 5px;
 	color: white;
+	font-size: 20px;
+}
+
+.send:hover{
+	cursor: pointer;
+	color:#0d77b7;
+	background-color: white;
+	border: solid 3px #0d77b7;
+
 }
